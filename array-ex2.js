@@ -42,3 +42,18 @@ function fizzBuzz(n) {
 
 // fizzBuzz(15);
 
+// 5. Cho 1 chuỗi bất kỳ, đếm số lượng kí tự `vowels` có trong chuỗi.
+// vowels là các kí tự u e o a i
+// Ví dụ "evondev" -> 3
+function countVowels(str){
+    let count = 0;
+    const vowels = 'euoai'
+    for(let c of str){
+        if(vowels.includes(c)) count += 1;
+    } 
+
+    return count;
+}
+
+// console.log(countVowels("evondev"));
+
