@@ -16,3 +16,8 @@ student.name = "Hieu";
 // delete field from object
 // delete student["first-name"];
 
+// for in
+// for(let key in student){
+//     console.log(`${key} : ${student[key]}`);
+// }
+
